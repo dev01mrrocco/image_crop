@@ -26,7 +26,7 @@ Widget _buildCropImage() {
       padding: const EdgeInsets.all(20.0),
       child: Crop(
         key: cropKey,
-        image: Image.file(imageFile),
+        image: FileImage(imageFile),
         aspectRatio: 4.0 / 3.0,
       ),
   );
